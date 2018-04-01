@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="IMG/faw.png">
+        <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/Style.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootbox.min.js"></script>
+        <script src="js/main.js"></script>
+        <title>Каталог</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="Header">
+                <div  class="head-row1">
+                    <button type="button" class="menu_button" onclick="btn_signin()" >Вход</button>
+                    <button type="button" class="menu_button"  onclick="btn_registration()" >Регистрация</button>
+                    <button type="button" class="menu_button" onclick="btn_basket()" >Моя корзина</button>
+                </div>
+                <div class="head-row2">
+                    <div class="he_1">
+                        <a href="index.html"><img src="IMG/logo.png" alt="logo" width="250px" ></a>
+                    </div>
+
+                    <div>
+                        <ul class="header_line">
+                            <li><a href="index.html"> Главная</a></li>
+                            <li><a href="Catalog.html"> Каталог игр</a></li>
+                            <li><a href="store.html"> Новинки</a></li>
+                            <li><a href="contacts.html"> Контакты</a></li>
+                            <li><a href="store.html"> Оплата</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+             <hr>
+
+            <div>
+                <input class="serch" type="text" size="70" placeholder="Поиск по сайту" oninput="findInGameList(this.value)">
+                <div id="find-result"><ul></ul></div><br><br>
+            </div>
+        <div class="content" align="center">
+                <h1> Каталог</h1>
+                    <div class="Items">
+                        <figure>
+                            <div class="Item">
+                                <a href="IT1.html"> <img src="IMG/tw3.jpg" width="200px"></a>
+                                <figcaption><a href="IT1.html">The Witcher 3: Wild Hunt </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT2.html"> <img src="IMG/p2.jpg" width="200px"></a>
+                                <figcaption><a href="IT2.html">Prototype 2 </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT3.html"> <img src="IMG/baa.jpg" width="200px"></a>
+                                <figcaption><a href="IT3.html">Batman: Arkham Asylum GOTY </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT4.html"> <img src="IMG/sm.jpg" width="200px"></a>
+                                <figcaption><a href="IT4.html">Surviving Mars </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT5.html"> <img src="IMG/sa.jpg" width="200px"></a>
+                                <figcaption><a href="IT5.html">Sword Art Online: Fatal Bullet  </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT6.html"> <img src="IMG/kk.jpg" width="200px"></a>
+                                <figcaption><a href="IT6.html">Kingdom Come: Deliverance </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT7.html"> <img src="IMG/m2033.jpg" width="200px"></a>
+                                <figcaption><a href="IT7.html">Metro 2033 Redux </a></figcaption>
+                            </div>
+                            <div class="Item">
+                                <a href="IT8.html"> <img src="IMG/ds.jpg" width="200px"></a>
+                                <figcaption><a href="IT8.html">Dark Souls 3 </a></figcaption>
+                            </div>
+                        </figure>
+                    </div>
+            </div>
+        </div>
+        <hr style="margin-bottom: 0px">
+
+        <div class="Footer" align="center">
+            <p class="Footer_text">©Все права защищены</p>
+        </div>
+    </body>
+</html>
